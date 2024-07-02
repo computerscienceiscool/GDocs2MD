@@ -30,7 +30,7 @@ go mod tidy
 
 
 ## Usage
-- Run the Program:go run cmd/main.go
+- Run the Program ```go run cmd/main.go```
 
 
 - Authorize the Application:
@@ -54,7 +54,7 @@ go mod tidy
 - Paste the folder URL into the terminal and press Enter.
 
 
-- Conversion Process:
+Conversion Process:
 
 
 - The program will retrieve the documents from the specified Google Drive folder.
@@ -66,7 +66,7 @@ go mod tidy
 - The converted files will be saved in a local folder named after the Google Drive folder.
 
 
-**Expected Behavior**
+## Expected Behavior
 **Inputs**
 - Authorization Code: After opening the URL provided by the program and authorizing access, you'll receive an authorization code. Enter this code into the terminal when prompted.
 
